@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf8">
+	<title>Caballo de ajadrez</title>
+	<link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+	<div class="main-container">
+		<h1 class="main-titulo">Objetivo: <strong id="posicion"></strong></h1>
+	
+		<div class="panel-tablero"  >
+			<table id="tablero"></table>
+			</div>
+
+	<div class="panel-score">
+		<div class="score">
+		  <h2 class="data-titulo">Partidas jugadas</h2>
+		  <span class="data-info" id="played-text">0</span>
+		</div>
+		<div class="moves">
+			<h2 class="data-titulo">Mejor partida</h2>
+			<span class="data-info" id="best-mov-text">0</span> movimientos
+			<br> (<span class="data-info" id="best-num-text">0</span> veces)
+		  </div>
+		  <div class="moves">
+			<h2 class="data-titulo">Peor partida</h2>
+			<span class="data-info" id="worst-mov-text">0</span> movimientos
+			<br> (<span class="data-info" id="worst-num-text">0</span> veces)
+		  </div>
+		<div class="buttons">
+		  <button class="btn-reinicio">Borrar marcador</button>
+		</div>
+	  </div>
+	
+	<script src="./main.js"></script>
+</body>
+</html>
